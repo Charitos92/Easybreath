@@ -1,0 +1,12 @@
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "4mk-if-ezS"; */
+"4mk-if-ezS.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "EasyBreath"; ObjectID = "7Nt-Nc-BT9"; */
+"7Nt-Nc-BT9.text" = "EasyBreath";
+
+/* Class = "UIButton"; normalTitle = "Authorize HealthKit"; ObjectID = "M66-28-lVj"; */
+"M66-28-lVj.normalTitle" = "Authorize HealthKit";
+
+/* Class = "UILabel"; text = "EasyBreath"; ObjectID = "iUo-ci-k1x"; */
+"iUo-ci-k1x.text" = "EasyBreath";
