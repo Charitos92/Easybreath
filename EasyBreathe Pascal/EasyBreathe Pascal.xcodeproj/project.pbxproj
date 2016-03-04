@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B193B1D1C823D8F000C3962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B193B1C1C823D8F000C3962 /* AppDelegate.swift */; };
+		1B193B1F1C823D8F000C3962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B193B1E1C823D8F000C3962 /* ViewController.swift */; };
+		1B193B241C823D8F000C3962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B193B231C823D8F000C3962 /* Assets.xcassets */; };
+		1B193B271C823D8F000C3962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B193B251C823D8F000C3962 /* LaunchScreen.storyboard */; };
+		1B193B361C823D9D000C3962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B193B351C823D9D000C3962 /* Assets.xcassets */; };
+		1B193B3D1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B193B3C1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B193B441C823D9D000C3962 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B193B431C823D9D000C3962 /* InterfaceController.swift */; };
+		1B193B461C823D9D000C3962 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B193B451C823D9D000C3962 /* ExtensionDelegate.swift */; };
+		1B193B481C823D9D000C3962 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B193B471C823D9D000C3962 /* NotificationController.swift */; };
+		1B193B4A1C823D9D000C3962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B193B491C823D9D000C3962 /* Assets.xcassets */; };
+		1B193B4E1C823D9D000C3962 /* EasyBreathe Pascal Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B193B301C823D9D000C3962 /* EasyBreathe Pascal Watch App.app */; };
+		1B193B581C823E13000C3962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B193B571C823E13000C3962 /* Main.storyboard */; };
+		1B193B5A1C823E35000C3962 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B193B591C823E35000C3962 /* Interface.storyboard */; };
+		1B193B5C1C824952000C3962 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B193B5B1C824952000C3962 /* HealthKit.framework */; };
+		1B193B5F1C824968000C3962 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B193B5E1C824968000C3962 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B193B3E1C823D9D000C3962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B193B111C823D8F000C3962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B193B3B1C823D9D000C3962;
+			remoteInfo = "EasyBreathe Pascal Watch App Extension";
+		};
+		1B193B4C1C823D9D000C3962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B193B111C823D8F000C3962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B193B2F1C823D9D000C3962;
+			remoteInfo = "EasyBreathe Pascal Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B193B521C823D9D000C3962 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B193B3D1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B193B561C823D9D000C3962 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1B193B4E1C823D9D000C3962 /* EasyBreathe Pascal Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B193B191C823D8F000C3962 /* EasyBreathe Pascal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyBreathe Pascal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B193B1C1C823D8F000C3962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B193B1E1C823D8F000C3962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B193B231C823D8F000C3962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B193B261C823D8F000C3962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B193B281C823D8F000C3962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B193B301C823D9D000C3962 /* EasyBreathe Pascal Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyBreathe Pascal Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B193B351C823D9D000C3962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B193B371C823D9D000C3962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B193B3C1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EasyBreathe Pascal Watch App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B193B421C823D9D000C3962 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1B193B431C823D9D000C3962 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1B193B451C823D9D000C3962 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1B193B471C823D9D000C3962 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1B193B491C823D9D000C3962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B193B4B1C823D9D000C3962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B193B571C823E13000C3962 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1B193B591C823E35000C3962 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		1B193B5B1C824952000C3962 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B193B5D1C824952000C3962 /* EasyBreathe Pascal Watch App Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "EasyBreathe Pascal Watch App Extension.entitlements"; sourceTree = "<group>"; };
+		1B193B5E1C824968000C3962 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		1B193B601C824968000C3962 /* EasyBreathe Pascal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "EasyBreathe Pascal.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B193B161C823D8F000C3962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B193B5F1C824968000C3962 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B193B391C823D9D000C3962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B193B5C1C824952000C3962 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B193B101C823D8F000C3962 = {
+			isa = PBXGroup;
+			children = (
+				1B193B5E1C824968000C3962 /* HealthKit.framework */,
+				1B193B5B1C824952000C3962 /* HealthKit.framework */,
+				1B193B1B1C823D8F000C3962 /* EasyBreathe Pascal */,
+				1B193B311C823D9D000C3962 /* EasyBreathe Pascal Watch App */,
+				1B193B401C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension */,
+				1B193B1A1C823D8F000C3962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B193B1A1C823D8F000C3962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B193B191C823D8F000C3962 /* EasyBreathe Pascal.app */,
+				1B193B301C823D9D000C3962 /* EasyBreathe Pascal Watch App.app */,
+				1B193B3C1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B193B1B1C823D8F000C3962 /* EasyBreathe Pascal */ = {
+			isa = PBXGroup;
+			children = (
+				1B193B601C824968000C3962 /* EasyBreathe Pascal.entitlements */,
+				1B193B1C1C823D8F000C3962 /* AppDelegate.swift */,
+				1B193B1E1C823D8F000C3962 /* ViewController.swift */,
+				1B193B571C823E13000C3962 /* Main.storyboard */,
+				1B193B231C823D8F000C3962 /* Assets.xcassets */,
+				1B193B251C823D8F000C3962 /* LaunchScreen.storyboard */,
+				1B193B281C823D8F000C3962 /* Info.plist */,
+			);
+			path = "EasyBreathe Pascal";
+			sourceTree = "<group>";
+		};
+		1B193B311C823D9D000C3962 /* EasyBreathe Pascal Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1B193B591C823E35000C3962 /* Interface.storyboard */,
+				1B193B351C823D9D000C3962 /* Assets.xcassets */,
+				1B193B371C823D9D000C3962 /* Info.plist */,
+			);
+			path = "EasyBreathe Pascal Watch App";
+			sourceTree = "<group>";
+		};
+		1B193B401C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B193B5D1C824952000C3962 /* EasyBreathe Pascal Watch App Extension.entitlements */,
+				1B193B431C823D9D000C3962 /* InterfaceController.swift */,
+				1B193B451C823D9D000C3962 /* ExtensionDelegate.swift */,
+				1B193B471C823D9D000C3962 /* NotificationController.swift */,
+				1B193B491C823D9D000C3962 /* Assets.xcassets */,
+				1B193B4B1C823D9D000C3962 /* Info.plist */,
+				1B193B411C823D9D000C3962 /* Supporting Files */,
+			);
+			path = "EasyBreathe Pascal Watch App Extension";
+			sourceTree = "<group>";
+		};
+		1B193B411C823D9D000C3962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B193B421C823D9D000C3962 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B193B181C823D8F000C3962 /* EasyBreathe Pascal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B193B2B1C823D8F000C3962 /* Build configuration list for PBXNativeTarget "EasyBreathe Pascal" */;
+			buildPhases = (
+				1B193B151C823D8F000C3962 /* Sources */,
+				1B193B161C823D8F000C3962 /* Frameworks */,
+				1B193B171C823D8F000C3962 /* Resources */,
+				1B193B561C823D9D000C3962 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B193B4D1C823D9D000C3962 /* PBXTargetDependency */,
+			);
+			name = "EasyBreathe Pascal";
+			productName = "EasyBreathe Pascal";
+			productReference = 1B193B191C823D8F000C3962 /* EasyBreathe Pascal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B193B2F1C823D9D000C3962 /* EasyBreathe Pascal Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B193B531C823D9D000C3962 /* Build configuration list for PBXNativeTarget "EasyBreathe Pascal Watch App" */;
+			buildPhases = (
+				1B193B2E1C823D9D000C3962 /* Resources */,
+				1B193B521C823D9D000C3962 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B193B3F1C823D9D000C3962 /* PBXTargetDependency */,
+			);
+			name = "EasyBreathe Pascal Watch App";
+			productName = "EasyBreathe Pascal Watch App";
+			productReference = 1B193B301C823D9D000C3962 /* EasyBreathe Pascal Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1B193B3B1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B193B4F1C823D9D000C3962 /* Build configuration list for PBXNativeTarget "EasyBreathe Pascal Watch App Extension" */;
+			buildPhases = (
+				1B193B381C823D9D000C3962 /* Sources */,
+				1B193B391C823D9D000C3962 /* Frameworks */,
+				1B193B3A1C823D9D000C3962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyBreathe Pascal Watch App Extension";
+			productName = "EasyBreathe Pascal Watch App Extension";
+			productReference = 1B193B3C1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B193B111C823D8F000C3962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pascal Loose";
+				TargetAttributes = {
+					1B193B181C823D8F000C3962 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H9E85TQDF9;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					1B193B2F1C823D9D000C3962 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H9E85TQDF9;
+					};
+					1B193B3B1C823D9D000C3962 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H9E85TQDF9;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1B193B141C823D8F000C3962 /* Build configuration list for PBXProject "EasyBreathe Pascal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B193B101C823D8F000C3962;
+			productRefGroup = 1B193B1A1C823D8F000C3962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B193B181C823D8F000C3962 /* EasyBreathe Pascal */,
+				1B193B2F1C823D9D000C3962 /* EasyBreathe Pascal Watch App */,
+				1B193B3B1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B193B171C823D8F000C3962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B193B581C823E13000C3962 /* Main.storyboard in Resources */,
+				1B193B271C823D8F000C3962 /* LaunchScreen.storyboard in Resources */,
+				1B193B241C823D8F000C3962 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B193B2E1C823D9D000C3962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B193B5A1C823E35000C3962 /* Interface.storyboard in Resources */,
+				1B193B361C823D9D000C3962 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B193B3A1C823D9D000C3962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B193B4A1C823D9D000C3962 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B193B151C823D8F000C3962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B193B1F1C823D8F000C3962 /* ViewController.swift in Sources */,
+				1B193B1D1C823D8F000C3962 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B193B381C823D9D000C3962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B193B481C823D9D000C3962 /* NotificationController.swift in Sources */,
+				1B193B461C823D9D000C3962 /* ExtensionDelegate.swift in Sources */,
+				1B193B441C823D9D000C3962 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B193B3F1C823D9D000C3962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B193B3B1C823D9D000C3962 /* EasyBreathe Pascal Watch App Extension */;
+			targetProxy = 1B193B3E1C823D9D000C3962 /* PBXContainerItemProxy */;
+		};
+		1B193B4D1C823D9D000C3962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B193B2F1C823D9D000C3962 /* EasyBreathe Pascal Watch App */;
+			targetProxy = 1B193B4C1C823D9D000C3962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B193B251C823D8F000C3962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B193B261C823D8F000C3962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B193B291C823D8F000C3962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B193B2A1C823D8F000C3962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B193B2C1C823D8F000C3962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EasyBreathe Pascal/EasyBreathe Pascal.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "EasyBreathe Pascal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pascalloose.EasyBreathe-Pascal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1B193B2D1C823D8F000C3962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EasyBreathe Pascal/EasyBreathe Pascal.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "EasyBreathe Pascal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pascalloose.EasyBreathe-Pascal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1B193B501C823D9D000C3962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "EasyBreathe Pascal Watch App Extension/EasyBreathe Pascal Watch App Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "EasyBreathe Pascal Watch App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pascalloose.EasyBreathe-Pascal.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1B193B511C823D9D000C3962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "EasyBreathe Pascal Watch App Extension/EasyBreathe Pascal Watch App Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "EasyBreathe Pascal Watch App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pascalloose.EasyBreathe-Pascal.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		1B193B541C823D9D000C3962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = EasyBreathe_Pascal_Watch_App_Extension;
+				INFOPLIST_FILE = "EasyBreathe Pascal Watch App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pascalloose.EasyBreathe-Pascal.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		1B193B551C823D9D000C3962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = EasyBreathe_Pascal_Watch_App_Extension;
+				INFOPLIST_FILE = "EasyBreathe Pascal Watch App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pascalloose.EasyBreathe-Pascal.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B193B141C823D8F000C3962 /* Build configuration list for PBXProject "EasyBreathe Pascal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B193B291C823D8F000C3962 /* Debug */,
+				1B193B2A1C823D8F000C3962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B193B2B1C823D8F000C3962 /* Build configuration list for PBXNativeTarget "EasyBreathe Pascal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B193B2C1C823D8F000C3962 /* Debug */,
+				1B193B2D1C823D8F000C3962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B193B4F1C823D9D000C3962 /* Build configuration list for PBXNativeTarget "EasyBreathe Pascal Watch App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B193B501C823D9D000C3962 /* Debug */,
+				1B193B511C823D9D000C3962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B193B531C823D9D000C3962 /* Build configuration list for PBXNativeTarget "EasyBreathe Pascal Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B193B541C823D9D000C3962 /* Debug */,
+				1B193B551C823D9D000C3962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B193B111C823D8F000C3962 /* Project object */;
+}
